@@ -1,0 +1,9 @@
+import pandas as pd
+import numpy as np
+import warnings
+warnings.filterwarnings('ignore')
+
+df=pd.read_csv(e:/OIBSIP/Datasets/Advertising.csv)
+df.shape
+df.column.values.tolist()
+df.info()
